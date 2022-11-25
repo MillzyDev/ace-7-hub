@@ -1,0 +1,47 @@
+a .jumbotron {
+    color: aliceblue;
+    font-weight: lighter;
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+.sub-jumbotron {
+    padding: 0.5rem 0rem;
+    margin-bottom: 0rem;
+    border-radius: 0;
+    position: relative;
+    z-index: 200 !important;
+    text-decoration: none !important;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none !important;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    margin-right: 20px;
+}
+
+.container h1 {
+    font-family: Catamaran;
+    font-size: 64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-style: normal;
+    text-decoration: none !important;
+    font-weight: normal;
+}

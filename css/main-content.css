@@ -1,0 +1,51 @@
+.main-content {
+    height: 30rem;
+}
+
+.center {
+    font-family: Catamaran;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.center h1, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons a {
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+    background-color: lightcoral;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 3rem;
+    border: 2px solid lightcoral;
+
+}
+
+.buttons a:hover {
+    background-color: white;
+    color: black;
+}
+
+.main-content h1 {
+    font-size: 38px;
+}
