@@ -1,5 +1,5 @@
 .main-content {
-    height: 30rem;
+    font-family: Catamaran;
 }
 
 .center {
@@ -8,13 +8,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 100%;
+    margin-top: 5%;
 }
 
 .center h1, h3 {
     text-align: center;
     margin: 0;
+}
+
+.center h3 {
+
 }
 
 .buttons {
@@ -32,12 +36,12 @@
     font-weight: bold;
     color: white;
 
-    background-color: lightcoral;
+    background-color: #E06666;
 
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 3rem;
-    border: 2px solid lightcoral;
+    border: 2px solid #E06666;
 
 }
 
@@ -48,4 +52,8 @@
 
 .main-content h1 {
     font-size: 38px;
+}
+
+.main-logo {
+    width: 13%;
 }

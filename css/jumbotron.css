@@ -1,11 +1,12 @@
-a .jumbotron {
+.jumbotron {
+    background: white;
     color: aliceblue;
     font-weight: lighter;
-    background-color: transparent;
     text-decoration: none !important;
 }
 
 .sub-jumbotron {
+    background: white;
     padding: 0.5rem 0rem;
     margin-bottom: 0rem;
     border-radius: 0;

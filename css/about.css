@@ -1,0 +1,25 @@
+.about-content {
+    margin-bottom: 10%;
+    font-family: Catamaran;
+}
+
+.text-content {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    outline: 2px black solid;
+    background-color: aliceblue;
+}
+
+.text-content h1 {
+    text-align: center;
+}
+
+.text-content p {
+    font-weight: bold;
+}
+
+li {
+    font-weight: bold;
+}

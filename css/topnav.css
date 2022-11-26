@@ -1,5 +1,5 @@
 .topnav {
-    background-color: lightcoral;
+    background-color: #E06666;
     overflow: hidden;
 
     padding-left: 10%;
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
 
-    border-bottom: 3px solid lightcoral;
+    border-bottom: 3px solid #E06666;
 }
 
 .topnav a {
