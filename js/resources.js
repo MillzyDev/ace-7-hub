@@ -1,6 +1,6 @@
 const resourceBox = document.getElementById("resources");
 
-fetch(`resources.json`).then((res) => {
+fetch(`https://raw.githubusercontent.com/MillzyDev/ace-7-hub/master/resources.json`).then((res) => {
     res.text().then((json) => {
         console.log(json);
         const resources = JSON.parse(json);
@@ -11,3 +11,4 @@ fetch(`resources.json`).then((res) => {
         }
     })
 });
+ 
