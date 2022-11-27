@@ -1,0 +1,44 @@
+.cards {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    outline: 2px black solid;
+    background-color: rgb(255, 236, 239);
+    margin: 20px;
+}
+
+.card .fileName {
+    text-align: center;
+}
+
+.card .clearance {
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    font-family: Catamaran;
+    font-weight: bold;
+    font-size: 15px;
+
+    outline: none;
+    border-style: double;
+    background-color: white;
+}
+
+.card .clearance:hover {
+    color: white;
+    background-color: #E06666;
+    border-color: #E06666;
+}
+
+.card .clearance:active {
+    background-color: #bd5454;
+    border-color: #bd5454;
+}

@@ -1,4 +1,4 @@
-.about-content {
+.content {
     margin-bottom: 10%;
     font-family: Catamaran;
 }
@@ -9,7 +9,7 @@
     margin-right: 20%;
     padding: 10px;
     outline: 2px black solid;
-    background-color: aliceblue;
+    background-color: rgb(255, 236, 239);
 }
 
 .text-content h1 {
