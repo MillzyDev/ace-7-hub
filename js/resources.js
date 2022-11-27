@@ -1,6 +1,6 @@
 const resourceBox = document.getElementById("resources");
 
-fetch(`/resources.json`).then((res) => {
+fetch(`resources.json`).then((res) => {
     res.text().then((json) => {
         console.log(json);
         const resources = JSON.parse(json);
