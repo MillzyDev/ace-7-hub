@@ -1,6 +1,6 @@
 const resourceBox = document.getElementById("research");
 
-fetch(`research.json`).then((res) => {
+fetch("https://raw.githubusercontent.com/MillzyDev/ace-7-hub/master/research.json").then((res) => {
     res.text().then((json) => {
         console.log(json);
         const resources = JSON.parse(json);
